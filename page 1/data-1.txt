@@ -1,0 +1,37 @@
+body = {
+font-family: Avenir
+padding: 64px,
+}
+
+hero = {
+width: 
+gap: 24px
+}
+
+Heading = {
+color: #252525,
+font-size: 64px,
+line-height: 80
+}
+
+Paragraph = {
+font-size: 26px,
+font-weight: Roman,
+color: #252525;
+opacity: 80%;
+}
+
+button {
+font-size: 18px,
+font-weight: Roman,
+bgColor: #252525,
+color: #FFFFFF,
+border-radius: 16px,
+padding: 48px 18px
+}
+
+images = {
+gap: 16px,
+width: 316px,
+height: 288px
+}
