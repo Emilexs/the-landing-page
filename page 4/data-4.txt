@@ -1,0 +1,46 @@
+body = {
+font-family: Avenir
+padding: 64px,
+}
+
+hero = {
+gap: 24px
+padding: 80px 112px
+}
+
+Heading = {
+color: #252525,
+font-size: 64px,
+line-height: 80
+}
+
+Paragraph = {
+font-size: 26px,
+font-weight: Roman,
+color: #252525;
+opacity: 80%;
+}
+
+button {
+font-size: 18px,
+font-weight: Roman,
+bgColor: #252525,
+color: #FFFFFF,
+border-radius: 16px,
+padding: 48px 18px
+}
+
+cards-heading = {
+font-size: 32px,
+font-weight: Heavy
+color: #252525,
+opacity: 55%
+}
+
+cards = {
+gap: 40px,
+font-size: 24px,
+font-weight: Roman,
+color: #252525,
+opacity: 80%
+}

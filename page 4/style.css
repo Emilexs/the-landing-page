@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Avenir', sans-serif;
+  color: #252525;
+  padding: 60px 60px 0 0;
+}
+
+
+
+.container {
+  display: flex;
+  gap: 20px;
+
+}
+
+.image img {
+  max-width: 100%;
+  width: 650px;
+  object-fit: cover;
+}
+
+.words {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 80px;
+}
+
+.hero {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 70px;
+}
+
+.hero h1 {
+  color: #252525;
+  font-size: 50px;
+  line-height: 70px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #252525;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #252525;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #252525;
+  opacity: 0.8;
+}
+
+.cards .card1 h2, .cards .card2 h2 {
+  font-size: 32px;
+  font-weight: heavy;
+  color: #252525;
+  opacity: 0.55;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+  }
+
+  .image img {
+      width: 100%; 
+      max-width: 600px;
+  }
+
+  .words {
+      padding-left: 0; 
+      text-align: center;
+  }
+
+  .hero h1 {
+      font-size: 40px; 
+      line-height: 60px; 
+  }
+
+  .hero p {
+      font-size: 20px;
+  }
+
+  .hero button {
+      font-size: 14px;
+      padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .image img {
+      max-width: 100%; 
+  }
+
+  .words {
+      max-width: 100%;
+      text-align: center;
+  }
+
+  .hero h1 {
+      font-size: 32px; 
+      line-height: 50px; 
+  }
+
+  .hero p {
+      font-size: 18px; 
+  }
+
+  .cards {
+      flex-direction: column;
+      gap: 20px; 
+  }
+
+  .cards .card1 h2, .cards .card2 h2 {
+      font-size: 24px;
+  }
+
+  .cards .card1 p, .cards .card2 p {
+      font-size: 14px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+      font-size: 28px; 
+      line-height: 40px; 
+   }
+
+  .hero p {
+      font-size: 16px;
+  }
+
+  .hero button {
+      font-size: 12px;
+      padding: 8px 16px;
+  }
+
+  .cards .card1 h2, .cards .card2 h2 {
+      font-size: 20px; 
+  }
+
+  .cards .card1 p, .cards .card2 p {
+      font-size: 12px; 
+  }
+}
